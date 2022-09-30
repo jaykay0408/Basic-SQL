@@ -1,0 +1,29 @@
+-- Q6-4: Practice of MATH functions
+-- ABS()
+select ABS(-1.0), ABS(0.0), ABS(1.0);
+
+-- SIGN()
+select SIGN(-125), SIGN(125), SIGN(0);
+
+-- CEILING(), FLOOR()
+select CEILING(123.45), CEILING(-123.45), CEILING(0.0);
+select FLOOR(123.45), FLOOR(-123.45), FLOOR(0.0);
+
+-- ROUND()
+SELECT ROUND(135.375, 2);
+
+-- LOG()
+SELECT LOG(2);
+
+-- EXP()
+SELECT EXP(1);
+
+-- POWER(), SQRT()
+SELECT POWER(4, 2);
+SELECT SQRT(64);
+
+-- RAND()
+SELECT RAND();
+
+-- COS(), SIN(), TAN(), ATAN()
+SELECT SIN(2), COS(2), TAN(2), ATAN(2);
