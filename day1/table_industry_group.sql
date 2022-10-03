@@ -14,5 +14,3 @@ LOAD DATA LOCAL INFILE 'nasdaq/industry_group.csv'
  ENCLOSED BY '"'
  LINES TERMINATED BY '\r\n'
  IGNORE 1 ROWS;
-
-ALTER TABLE industry_group
